@@ -2,10 +2,13 @@
   margin: 0;
   padding: 0;
 }
+.h{
+  margin-bottom: 0%;
+}
 .h img{
-    height: 60px;
+    height: 70px;
     float: left;
-    box-shadow: 0px 0px 20px 0px grey;
+    /* box-shadow: 0px 0px 20px 0px grey; */
     background-color: rgb(82, 245, 155);
 }
 .h h1{
@@ -13,18 +16,18 @@
     background-color: rgb(82, 245, 155);
     font-family: verdana;
     text-align: center;
-    height: 60px;
+    height: 70px;
     font-size: 60px;
-    box-shadow: 0px 0px 25px 0px black;
+    /* box-shadow: 0px 0px 25px 0px black; */
 }
 .nav{
   width: 100%;
-  margin-top: 1%;
-  margin-bottom: 5%;
+  margin-top: 0%;
+  margin-bottom: 1%;
 }
 .nav ul{
   list-style: none;
-  margin-top: 1%;
+  margin-top: 0%;
 }
 .nav ul li{
   background: red;
@@ -65,8 +68,8 @@ section{
   width: 40%;
   float: left;
   height: 200px;
-  color: white;
-  background: black;
+  color: black;
+  /* background: black; */
   padding-bottom: 50px;
   padding-left: 0px;
   text-align: center;
@@ -74,8 +77,8 @@ section{
 .left2{
   width: 40%;
   float: left;
-  height: 300px;
-  background: white;
+  height: 350px;
+  background: rgb(198, 251, 204);
   margin-bottom: 0px;
   text-align: center;
 }
@@ -87,12 +90,21 @@ section{
 #np{
   font-family: courier;
 }
-
+#btn1{
+  font-size: 40px;
+  border: 3px solid black;
+  box-shadow: 0px 0px 25px 0px red;
+}
+#btn2{
+  font-size: 40px;
+  border: 3px solid black;
+  box-shadow: 0px 0px 25px 0px blue;
+}
 footer{
     background-color: black;
     color: white;
     font-size: 20px;
     text-align: center;
     padding: 10px;
-    margin-top: 1%;
+    margin-top: 0%;
 }
